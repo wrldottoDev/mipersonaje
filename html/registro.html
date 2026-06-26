@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1 class="logo">ComicVerse</h1>
+            <nav class="menu">
+                <a href="ejercicio2.html">Inicio</a>
+                <a href="login.html">Iniciar sesion</a>
+                <a class="activo" href="registro.html">Registro</a>
+                <a href="perfil.html">Perfil</a>
+                <a href="libros.html">Libros</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="registro" class="seccion">
+            <div class="contenedor formulario-contenedor">
+                <h2>Registro</h2>
+                <p>Crea una cuenta nueva para guardar tus comics favoritos.</p>
+
+                <form class="formulario">
+                    <label for="nombre">Nombre completo</label>
+                    <input id="nombre" type="text" placeholder="Nombre y apellido">
+
+                    <label for="correo-registro">Correo electronico</label>
+                    <input id="correo-registro" type="email" placeholder="usuario@correo.com">
+
+                    <label for="correo-registro">Nombre de usuario</label>
+                    <input id="correo-registro" type="text" placeholder="Tu usuario">
+
+                    <label for="genero">Genero favorito</label>
+                    <select id="genero">
+                        <option>Superheroes</option>
+                        <option>Manga</option>
+                        <option>Ciencia ficcion</option>
+                        <option>Fantasia</option>
+                        <option>Terror</option>
+                    </select>
+
+                    <label for="correo-registro">Contraseña</label>
+                    <input id="correo-registro" type="password" placeholder="Crea una contraseña">
+
+                    <button type="submit">Registrarme</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
